@@ -14,6 +14,7 @@ import {renderToStream, type RenderToStreamOptions} from '@builder.io/qwik/serve
 import {manifest} from '@qwik-client-manifest';
 import Root from './root';
 
+// eslint-disable-next-line require-jsdoc
 export default function(opts: RenderToStreamOptions) {
 	return renderToStream(<Root />, {
 		manifest,

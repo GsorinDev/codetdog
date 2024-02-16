@@ -12,6 +12,7 @@
 import {render, type RenderOptions} from '@builder.io/qwik';
 import Root from './root';
 
+// eslint-disable-next-line require-jsdoc
 export default function(opts: RenderOptions) {
 	return render(document, <Root />, opts);
 }
